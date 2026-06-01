@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% if bmi %}
+        <hr>
+        <h2>Your Results</h2>
+        <p>Weight: {{ weight }} kg</p>
+        <p>Height: {{ height_m }} m</p>
+        <p>BMI: {{ bmi }}</p>
+        <p>Status: {{ status }}</p>
+        {% endif %}
+    </body>
+</html>
